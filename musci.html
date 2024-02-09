@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <link rel="stylesheet" href="music.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="music-player">
+        <div class="player" id="player">
+            <div class="album">
+              
+                <div class="vinyl"></div>
+                <div class="artist"></div>
+
+            </div>
+
+            <div class="title" id="title">
+               <h1 class="song">All Too Well (Taylor Swift Version)</h1>
+               <h4 class="singer">Taylor Swift</h4>
+            </div>
+            
+           
+
+            <div class="seek">
+                <div class="starttime">00:00</div>
+                <input type="range" min="1" max="100"
+                  value="0" class="seek_bar">
+                <div class="endtime">10:00</div>
+            </div>
+
+            <div class="buttons" >
+                <div class="prev-track">
+                    <i class="fa fa-step-backward fa-2x"></i>
+                  </div>
+                  <div class="playpause-track">
+                    <i class="fa fa-play-circle fa-5x"></i>
+                  </div>
+                  <div class="next-track">
+                    <i class="fa fa-step-forward fa-2x"></i>
+                  </div>
+
+            </div>
+
+           
+
+        </div>
+    </div>
+    
+</body>
+</html>
